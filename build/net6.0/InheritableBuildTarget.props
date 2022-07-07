@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Project>
+  <PropertyGroup>
+    <Message_Default>Hello MSBuild.</Message_Default>
+    <Message_Props>Hello Properties.</Message_Props>
+    <Message_Targets>Hello Targets.</Message_Targets>
+  </PropertyGroup>
+
+  <Target Name="HelloProps">
+    <Message Text="$(Message_Props)" Importance="high" />
+  </Target>
+
+</Project>
