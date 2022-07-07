@@ -6,7 +6,7 @@
 
 This project is an example of how to setup an MSBuild project with a Nuget package output (`.nupkg`) that correctly includes shared build project files (`.props` and `.targets`) so that they can be consumed without further action from dotnet / Visual Studio projects that reference the package.
 
-It is a partner project to the example that consumes it. (@TODO Link)
+It has  a [partner project](https://github.com/JollyWizard/ConsumeInheritableBuildTarget.csproj) that is an example on how to consume it. 
 
 ### Essential Concerns
 
