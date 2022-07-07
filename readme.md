@@ -73,7 +73,7 @@ This project demonstrates a corect mapping, assuming all other conventions are f
 
  The inheriting project will automatically have the build scripts applied and they can be seen in VS as dependency resources.
 
- <image src='media\VS-Studio-ConsumedAndAvailable.PNG'/>
+ <image src='media\VS-ResourceAsDependency.PNG'/>
 
  ### Troubleshooting
 
