@@ -64,7 +64,10 @@ This project demonstrates a corect mapping, assuming all other conventions are f
 
  <image src='media\VS-Project-Structure.PNG'/>
 
+ Befire it can be included as a dependency it needs to be published to a repository. This example includes a `PublishProfiles` entry called `.nuget-local.pubxml` that you can use in VS studio to publish to `..\.nuget-local\`. Configure this as a source in VS Studio / nuget, and then create a child package (or use the example).
+
  When this project is added as a dependency via:
+ 
  ```
   <ItemGroup>
    <PackageReference Include="InheritableBuildTarget" Version="1.0.0" />
